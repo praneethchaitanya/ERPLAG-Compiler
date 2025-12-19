@@ -1,0 +1,44 @@
+#include "ast.h"
+
+void printStmt(Ast_Stmt* t, int n);
+void printAop(ArithmeticOperator op, int n);
+void printLop(LogicalOperator op, int n);
+void printRelop(RelationalOperator op, int n);
+
+void printTypeDefinitions(Ast_TypeDefinitions* t, int n);
+void printOtherStmts(Ast_OtherStmts* t, int n);
+void printDeclarations(Ast_Declarations* t, int n);
+void printIdList(Ast_IdList* t, int n);
+void printOtherFunctions(Ast_OtherFunctions* t, int n);
+void printParameterList(Ast_ParameterList* t, int n);
+void printFieldDefinitions(Ast_FieldDefinitions* t, int n);
+void printSingleOrRecId(Ast_SingleOrRecId* t, int n);
+void printOptionSingleConstructed(Ast_OptionSingleConstructed* t, int n);
+void printDatatype(Ast_Datatype* t, int n);
+void printFieldDefinition(Ast_FieldDefinition* t, int n);
+void printDefineTypeStmt(Ast_DefineTypeStmt* t, int n);
+void printA(Ast_A* t, int n);
+void printNum(Ast_Num* t, int n);
+void printRnum(Ast_Rnum* t, int n);
+void printDeclaration(Ast_Declaration* t, int n);
+void printStmts(Ast_Stmts* t, int n);
+void printMain(Ast_Main* t, int n);
+void printProgram(Ast_Program* t, int n);
+void printFunction(Ast_Function* t, int n);
+void printParameterDeclaration(Ast_ParameterDeclaration* t, int n);
+void printPrimitiveDatatype(Ast_PrimitiveDatatype* t, int n);
+void printConstructedDatatype(Ast_ConstructedDatatype* t, int n);
+void printTypeDefinition(Ast_TypeDefinition* t, int n);
+void printArithmeticExpression(Ast_ArithmeticExpression* t, int n);
+void printBooleanExpression(Ast_BooleanExpression* t, int n);
+void printAssignmentStmt(Ast_AssignmentStmt* t, int n);
+void printFunCallStmt(Ast_FunCallStmt* t, int n);
+void printVar(Ast_Var* t, int n);
+void printIterativeStmt(Ast_IterativeStmt* t, int n);
+void printConditionalStmt(Ast_ConditionalStmt* t, int n);
+void printIoStmt(Ast_IoStmt* t, int n);
+void printElsePart(Ast_ElsePart* t, int n);
+void printLogicalOperator(Ast_LogicalOperator* t, int n);
+void printRelationalOperator(Ast_RelationalOperator* t, int n);
+void printArithmeticOperator(Ast_ArithmeticOperator* t, int n);
+void printMoreExpansion(Ast_MoreExpansion* t, int n);

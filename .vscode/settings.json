@@ -1,0 +1,14 @@
+{
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+        "stdlib.h": "c",
+        "type.h": "c",
+        "token.h": "c",
+        "symboltable.h": "c",
+        "ast.h": "c",
+        "typedef.h": "c",
+        "astprint.h": "c",
+        "parser.h": "c",
+        "astlist.h": "c"
+    }
+}
